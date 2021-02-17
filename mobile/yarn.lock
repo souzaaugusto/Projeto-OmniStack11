@@ -935,7 +935,7 @@
   resolved "https://registry.yarnpkg.com/@expo/vector-icons/-/vector-icons-10.0.6.tgz#5718953ff0b97827d11dae5787976fa8ce5caaed"
   integrity sha512-qNlKPNdf073LpeEpyClxAh0D3mmIK4TGAQzeKR0HVwf14RIEe17+mLW5Z6Ka5Ho/lUtKMRPDHumSllFyKvpeGg==
   dependencies:
-    lodash "^4.17.4"
+    lodash "^4.17.19"
 
 "@expo/websql@^1.0.1":
   version "1.0.1"
@@ -1071,7 +1071,7 @@
   integrity sha512-8IhQKZdf3E4CR8T7HhkPGgorot/cLkRDgneJFDSWk/wCYZAuUh4NEAdumQV7N0jLSMWX7xxiWUPi94lOBxVY9g==
   dependencies:
     chalk "^2.4.2"
-    lodash "^4.17.5"
+    lodash "^4.17.19"
     mime "^2.4.1"
     node-fetch "^2.6.1"
 
@@ -1105,7 +1105,7 @@
     glob "^7.1.1"
     graceful-fs "^4.1.3"
     inquirer "^3.0.6"
-    lodash "^4.17.5"
+    lodash "^4.17.19"
     metro "^0.56.0"
     metro-config "^0.56.0"
     metro-core "^0.56.0"
@@ -1213,8 +1213,8 @@
     "@types/lodash" "*"
 
 "@types/lodash@*":
-  version "4.14.149"
-  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.149.tgz#1342d63d948c6062838fbf961012f74d4e638440"
+  version "4.17.19"
+  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.17.19.tgz#1342d63d948c6062838fbf961012f74d4e638440"
   integrity sha512-ijGqzZt/b7BfzcK9vTrS6MFljQRPn5BFWOx8oE0GYxribu6uV+aA9zZuXI1zc/etK9E8nrgdoF2+LgUw7+9tJQ==
 
 "@types/qs@^6.5.1":
@@ -1269,7 +1269,7 @@
   integrity sha512-qb5p5wUQoi3TRa/33aLLHSnS7sewV99oBxIo9gnzNI3VFzbOm3rsbTjOJNcR2hx0raUolTtnQT75VbgagVQx4w==
   dependencies:
     invariant "^2.2.4"
-    lodash "^4.5.0"
+    lodash "^4.17.19"
     prop-types "^15.6.1"
 
 abort-controller@^3.0.0:
@@ -2407,7 +2407,7 @@ expo@~36.0.0:
     expo-web-browser "~8.0.0"
     fbemitter "^2.1.1"
     invariant "^2.2.2"
-    lodash "^4.6.0"
+    lodash "^4.17.19"
     md5-file "^3.2.3"
     nullthrows "^1.1.0"
     pretty-format "^23.6.0"
@@ -2874,7 +2874,7 @@ inquirer@^3.0.6:
     cli-width "^2.0.0"
     external-editor "^2.0.4"
     figures "^2.0.0"
-    lodash "^4.3.0"
+    lodash "^4.17.19"
     mute-stream "0.0.7"
     run-async "^2.2.0"
     rx-lite "^4.0.8"
@@ -3068,7 +3068,7 @@ isomorphic-fetch@^2.1.1:
   resolved "https://registry.yarnpkg.com/isomorphic-fetch/-/isomorphic-fetch-2.2.1.tgz#611ae1acf14f5e81f729507472819fe9733558a9"
   integrity sha1-YRrhrPFPXoH3KVB0coGf6XM1WKk=
   dependencies:
-    node-fetch "^1.0.1"
+    node-fetch "^2.6.1"
     whatwg-fetch ">=0.10.0"
 
 jest-get-type@^24.9.0:
@@ -3336,7 +3336,7 @@ lodash.throttle@^4.1.1:
   integrity sha1-wj6RtxAkKscMN/HhzaknTMOb8vQ=
 
 lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.3.0, lodash@^4.5.0, lodash@^4.6.0:
-  version "4.17.15"
+  version "4.17.19"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
   integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
 
@@ -3644,7 +3644,7 @@ metro@^0.56.0, metro@^0.56.4:
     metro-symbolicate "^0.56.4"
     mime-types "2.1.11"
     mkdirp "^0.5.1"
-    node-fetch "^2.2.0"
+    node-fetch "^2.6.1"
     nullthrows "^1.1.0"
     resolve "^1.5.0"
     rimraf "^2.5.4"
@@ -3816,17 +3816,17 @@ nice-try@^1.0.4:
   resolved "https://registry.yarnpkg.com/nice-try/-/nice-try-1.0.5.tgz#a3378a7696ce7d223e88fc9b764bd7ef1089e366"
   integrity sha512-1nh45deeb5olNY7eX82BkPO7SSxR5SSYJiPTrTdFUVYwAl8CKMA5N9PjTYkHiRjisVcxcQ1HXdLhx2qxxJzLNQ==
 
-node-fetch@^1.0.1:
-  version "1.7.3"
-  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-1.7.3.tgz#980f6f72d85211a5347c6b2bc18c5b84c3eb47ef"
+node-fetch@^2.6.1:
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.1.tgz#980f6f72d85211a5347c6b2bc18c5b84c3eb47ef"
   integrity sha512-NhZ4CsKx7cYm2vSrBAr2PvFOe6sWDf0UYLRqA6svUYg7+/TSfVAu49jYC4BvQ4Sms9SZgdqGBgroqfDhJdTyKQ==
   dependencies:
     encoding "^0.1.11"
     is-stream "^1.0.1"
 
 node-fetch@^2.2.0, node-fetch@^2.5.0:
-  version "2.6.0"
-  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.0.tgz#e633456386d4aa55863f676a7ab0daa8fdecb0fd"
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.1.tgz#e633456386d4aa55863f676a7ab0daa8fdecb0fd"
   integrity sha512-8dG4H5ujfvFiqDmVu9fQ5bOHUC15JMjMY/Zumv26oOvvVJjM67KF8koCWIabKQ1GJIa9r2mMZscBq/TbdOcmNA==
 
 node-int64@^0.4.0:
@@ -5475,9 +5475,9 @@ yargs-parser@^13.1.2:
     camelcase "^5.0.0"
     decamelize "^1.2.0"
 
-yargs-parser@^7.0.0:
-  version "7.0.0"
-  resolved "https://registry.yarnpkg.com/yargs-parser/-/yargs-parser-7.0.0.tgz#8d0ac42f16ea55debd332caf4c4038b3e3f5dfd9"
+yargs-parser@^13.1.2:
+  version "13.1.2"
+  resolved "https://registry.yarnpkg.com/yargs-parser/-/yargs-parser-13.2.1.tgz#8d0ac42f16ea55debd332caf4c4038b3e3f5dfd9"
   integrity sha1-jQrELxbqVd69MyyvTEA4s+P139k=
   dependencies:
     camelcase "^4.1.0"
@@ -5498,7 +5498,7 @@ yargs@^12.0.5:
     string-width "^2.0.0"
     which-module "^2.0.0"
     y18n "^3.2.1 || ^4.0.0"
-    yargs-parser "^11.1.1"
+    yargs-parser "^13.1.2"
 
 yargs@^9.0.0:
   version "9.0.1"
@@ -5517,4 +5517,4 @@ yargs@^9.0.0:
     string-width "^2.0.0"
     which-module "^2.0.0"
     y18n "^3.2.1"
-    yargs-parser "^7.0.0"
+    yargs-parser "^13.1.2"

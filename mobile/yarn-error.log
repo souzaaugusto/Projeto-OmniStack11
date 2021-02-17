@@ -988,7 +988,7 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/@expo/vector-icons/-/vector-icons-10.0.6.tgz#5718953ff0b97827d11dae5787976fa8ce5caaed"
     integrity sha512-qNlKPNdf073LpeEpyClxAh0D3mmIK4TGAQzeKR0HVwf14RIEe17+mLW5Z6Ka5Ho/lUtKMRPDHumSllFyKvpeGg==
     dependencies:
-      lodash "^4.17.4"
+      lodash "^4.17.19"
   
   "@expo/websql@^1.0.1":
     version "1.0.1"
@@ -1124,7 +1124,7 @@ Lockfile:
     integrity sha512-8IhQKZdf3E4CR8T7HhkPGgorot/cLkRDgneJFDSWk/wCYZAuUh4NEAdumQV7N0jLSMWX7xxiWUPi94lOBxVY9g==
     dependencies:
       chalk "^2.4.2"
-      lodash "^4.17.5"
+      lodash "^4.17.19"
       mime "^2.4.1"
       node-fetch "^2.6.1"
   
@@ -1158,7 +1158,7 @@ Lockfile:
       glob "^7.1.1"
       graceful-fs "^4.1.3"
       inquirer "^3.0.6"
-      lodash "^4.17.5"
+      lodash "^4.17.19"
       metro "^0.56.0"
       metro-config "^0.56.0"
       metro-core "^0.56.0"
@@ -5516,9 +5516,9 @@ Lockfile:
       camelcase "^5.0.0"
       decamelize "^1.2.0"
   
-  yargs-parser@^7.0.0:
-    version "7.0.0"
-    resolved "https://registry.yarnpkg.com/yargs-parser/-/yargs-parser-7.0.0.tgz#8d0ac42f16ea55debd332caf4c4038b3e3f5dfd9"
+  yargs-parser@^13.1.2:
+    version "13.1.2"
+    resolved "https://registry.yarnpkg.com/yargs-parser/-/yargs-parser-13.1.2.tgz#8d0ac42f16ea55debd332caf4c4038b3e3f5dfd9"
     integrity sha1-jQrELxbqVd69MyyvTEA4s+P139k=
     dependencies:
       camelcase "^4.1.0"
@@ -5539,7 +5539,7 @@ Lockfile:
       string-width "^2.0.0"
       which-module "^2.0.0"
       y18n "^3.2.1 || ^4.0.0"
-      yargs-parser "^11.1.1"
+      yargs-parser "^13.1.2"
   
   yargs@^9.0.0:
     version "9.0.1"
